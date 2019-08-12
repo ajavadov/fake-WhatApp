@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+.inner-box{
+    display: flex;
+    justify-content: center;
+
+
+}
+.container img{
+    max-width: 510px;
+    height: 670px;
+    position: absolute;
+    
+}
+.chatScreen{
+    /* z-index: 1; */
+    position: relative;
+    top: 56px;
+    left: -57px;
+    height: 509px;
+    width: 222px;
+    /* border: 1px solid red; */
+    display: block;
+}
+.time-bar{
+    width: 222px;
+    /* border: 1px solid black; */
+    height: 28px;
+    left: -1px;
+    position: absolute;
+    border-radius: 9px;
+    background-color: #000000;
+    color: #f3f4f7;
+    top: -1px;
+
+}
+p.time{
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.name-bar{
+    width: 222px;
+    /* border: 1px solid black; */
+    top: 20px;
+    left: -1px;
+    height: 42px;
+    position: absolute;
+    background-color: #075e54;
+    color:#ece5dd;
+} 
+
+@media (min-width: 400px){
+    .side-1, .side-2{
+        /* border: 1px solid black; */
+        height: 100%;
+        width: 90vw;
+        margin-bottom: 220px;
+
+    }
+    
+
+    }
+
+@media (min-width: 999px){
+    .side-1, .side-2{
+        /* border: 1px solid black; */
+        height: 100%;
+        width: 40vw;
+}
+}
+
+.time{
+    display: inline-block;
+}
+.wifiAndBattery{
+    float: right;
+    margin-top: 2px;}
+i p{
+    font-family: 'Blinker', sans-serif;
+    display: inline-block;
+    color:rgb(31, 122, 3);
+    margin-left:5px;  
+    margin-right: 5px;  
+}
+.side-2 i>b{
+    font-family: 'Blinker', sans-serif;
+    display: inline-block;
+    color:rgba(241, 12, 12, 0.616);
+    margin-left:5px; 
+    margin-right: 5px;  
+
+}
+
+.chat{
+    position: absolute;
+    top: 62px;
+    /* border: 1px solid black; */
+    height: 374px;
+    width: 221px;
+    overflow-y: scroll;
+    background-color: #ece5dd;
+
+}
+
+input{
+    bottom: 1px;
+    width: 170px;
+    height: 25px;
+    border: 1px solid #dcf8c6;
+    border-radius: 10px;
+}
+.fa-paper-plane{
+   
+    color:green;
+}
+.typing{
+    position: absolute;
+    bottom: 44px;
+    margin-left: 10px;;
+}
+.menu{
+    position: absolute;
+    height: 31px;
+    width: 90%;
+    bottom: 7px;
+    left: 14px;}
+.menu img{
+    width:100%;
+    height:32px;
+}
+.received,.sent{
+    width:70%;
+    border: 1px solid #ece5dd;
+    border-radius: 7px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flow-root;
+    
+}
+
+.sent{
+    float: right;
+    background-color: #dcf8c6;
+
+    
+}
+/* li.sent{
+    float: right;
+    background-color: #dcf8c6;
+} */
+#messageList2 p, #messageList1 p{
+    overflow-wrap: break-word;
+}
+
+
+
+ul{
+    /* list-style: none;    */
+    padding-left: 0;
+    position: relative;
+    
+}
+
+.side-2 ::-webkit-scrollbar {
+    width: 10px;
+  }
+.side-1 ::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px white; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+
+  .side-2 .chat{
+      height:370px;
+  }
+  .back, h1{
+      margin: 12px 0 5px 5px;
+  }
+  h1{
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    left: 59px;
+    font-size: 15px;
+    font-family: sans-serif;
+
+  }
+  .more{
+    position: absolute;
+    right: 7px;
+    top: -2px;
+    margin: 14px 2px 13px 0px;
+      
+  }
+  .fa-phone:before {
+    content: "\f095";
+    margin: 0 6px;
+}
+#profilePic{
+    margin: 6px;
+    height: 30px;
+    width: 30px;
+}
+#sends1:hover, #sends2:hover{
+    cursor: pointer;
+}
+
+li{
+    position: relative;
+}
+li div{
+    position: absolute;
+    bottom: -2px;
+    right: 31px;
+    color: #e74c3c;
+}
+li div:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.sent time, li.received time {
+    font-size: 11px;
+    float: right;
+    margin-right: 2px;
+}
+li.sent p, li.received p{
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.name-bar p{
+    position: absolute;
+    top: 26px;
+    left: 63px;
+    font-size: 9px;
+    font-family: monospace;
+}
