@@ -181,45 +181,7 @@ sendButton2.addEventListener('click',function(){
 
     messageNode.appendChild(trash);
     messageNode2.appendChild(trash2);
-//    var a=document.createElement('select');
 
-//    var disopt=document.createElement('option');
-
-//    var disoptxt=document.createTextNode('');
-//    disopt.appendChild(disoptxt);
-//    disopt.setAttribute('value',"")
-//    disopt.setAttribute('selected','selected');
-//    disopt.setAttribute('disabled','disabled');
-
-//    a.appendChild(disopt);
-   
-//    var a1=document.createElement('option');
-//    var a2=document.createTextNode('delete');
-//    a1.appendChild(a2);
-//    a.appendChild(a1)
-
-  
-
-
-
-
-//    var b=document.createElement('select');
-
-//    var disopt2=document.createElement('option');
-//    var disoptxt2=document.createTextNode('');
-
-//    disopt2.appendChild(disoptxt2);
-   
-//    a.appendChild(disopt2);
-//    var b1=document.createElement('option');
-//    var b2=document.createTextNode('delete');
-//    b1.appendChild(b2);
-
-//    b.appendChild(b1)
-
-   
-
-////    messageNode2.appendChild(b);
 
        
 

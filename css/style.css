@@ -156,10 +156,7 @@ input{
 
     
 }
-/* li.sent{
-    float: right;
-    background-color: #dcf8c6;
-} */
+
 #messageList2 p, #messageList1 p{
     overflow-wrap: break-word;
 }
